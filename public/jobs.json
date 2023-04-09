@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "cover_image": "https://cdn.jim-nielsen.com/ios/1024/calculator-2017-10-10.png",
+    "job_name": "Engineering Job",
+    "job_amount": "300 Jobs Available"
+  },
+  {
+    "id": 2,
+    "cover_image": "https://www.globalbankingandfinance.com/wp-content/uploads/2021/04/Digital-Marketing-Logos-1.jpg",
+    "job_name": "Account & Finance",
+    "job_amount": "100+ Jobs Available"
+  },
+  {
+    "id": 3,
+    "cover_image": "https://www.northeastern.edu/graduate/blog/wp-content/uploads/2020/06/iStock-1221293664-1-1-1.jpg",
+    "job_name": "Marketing & Sales",
+    "job_amount": "150 Jobs Available"
+  },
+  {
+    "id": 4,
+    "cover_image": "https://www.incimages.com/uploaded_files/image/1920x1080/getty_537311951_100178.jpg",
+    "job_name": "Creative Design",
+    "job_amount": "500 Jobs Available"
+  }
+]

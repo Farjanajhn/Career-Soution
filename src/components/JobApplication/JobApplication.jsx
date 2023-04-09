@@ -4,7 +4,9 @@ const JobApplication = () => {
   return (
     <div>
       apply here
+      <h1>Hey hey</h1>
     </div>
+
   );
 };
 

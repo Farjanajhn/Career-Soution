@@ -18,6 +18,7 @@ const Banner = () => {
 <img className=' h-full rounded-md' src="https://www.legalzoom.com/sites/lz.com/files/inline-images/articles/xwomanbusiness.jpg.pagespeed.ic.X22I1cEaN2.webp" alt="" />
         </div>
       </div>
+    
     </div>
   );
 };
