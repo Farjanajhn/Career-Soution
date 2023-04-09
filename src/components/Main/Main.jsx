@@ -1,5 +1,6 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
+import Banner from '../Banner/Banner';
 import Header from '../Header/Header';
 
 const Main = () => {
@@ -7,6 +8,7 @@ const Main = () => {
     <div>
       <Header></Header>
       <Outlet></Outlet>
+      <Banner></Banner>
     </div>
   );
 };
