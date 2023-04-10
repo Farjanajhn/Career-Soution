@@ -4,18 +4,18 @@ import ActiveLink from '../ActiveLink/ActiveLink';
 
 const Header = () => {
   return (
-    <div className='md:flex justify-evenly  bg-gradient-to-r from-pink-500 to-violet-500 w-75 mx-auto h-32 items-center'>
+    <div className='md:flex justify-evenly bg-gradient-to-r from-pink-500 to-violet-500 w-75 mx-auto h-32 items-center'>
       <div className='md:flex gap-64'>
-        <h4 className='ml-4 text-4xl  '>Career-Solution</h4>
+        <h4 className='ml-4 text-4xl '>Career-Solution</h4>
       
-        <div className=''>
-         <ActiveLink className='ml-6'  to='/'>Home</ActiveLink> 
+        <div className='flex gap-4'>
+         <ActiveLink className='ml-6' to='/'>Home</ActiveLink> 
         <ActiveLink className='ml-6'  to='/statistics'>Statistics</ActiveLink>
         <ActiveLink className='ml-6' to='/applied'>Applied Job</ActiveLink>
         <ActiveLink className='ml-6' to='/blog'>Blog</ActiveLink>
         </div>
       </div>
-      <Link><button className='rounded-md w-32 border-solid border-2 border-indigo-600'>Start Applying</button></Link>
+      <Link><button className='rounded w-30% bg-purple-100 py-2  hover:bg-purple-500 w-32  '>Start Applying</button></Link>
     </div>
   );
 };

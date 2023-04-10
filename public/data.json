@@ -7,7 +7,12 @@
     "job_type1": "remote",
     "job_type2": "full-time",
     "location": "Dhaka,Bangladesh",
-    "salary": "80k-120k"
+    "salary": "80k-120k",
+    "job_description": "A technical database engineer is responsible for designing, implementing, and maintaining database systems. They must have a strong understanding of database design, performance optimization, and data security. They collaborate with other teams to ensure that database systems are integrated with other software systems and meet business requirements.",
+    "experience":"2+ years",
+    "responsibility": "Design, implement, and maintain database systems; optimize database performance; ensure data security; collaborate with other teams to integrate database systems with other software systems and meet business requirements."
+
+    
   },
   {
     "id": 2,
@@ -17,7 +22,10 @@
     "job_type1": "onsite",
     "job_type2": "full-time",
     "location": "Dhaka,Bangladesh",
-    "salary": "800k-1200k"
+    "salary": "800k-1200k",
+    "job_description": "A senior product designer is responsible for leading the design of user-centered products and experiences. They collaborate with cross-functional teams to ensure that design solutions meet user needs, business objectives, and technical requirements. They are also responsible for conducting user research and testing to inform design decisions.",
+    "experience":"2+ years",
+    "responsibility": "Lead the design of user-centered products and experiences, conduct user research and testing, and collaborate with cross-functional teams to develop and implement design solutions."
   },
   {
     "id": 3,
@@ -27,7 +35,10 @@
     "job_type1": "onsite",
     "job_type2": "full-time",
     "location": "Dhaka,Bangladesh",
-    "salary": "100k-1200k"
+    "salary": "100k-1200k",
+    "job_description": "A software engineer is responsible for designing, developing, and maintaining software applications. They must be skilled in programming languages such as Java, Python, and C++ and have experience with software development methodologies.",
+    "experience":"2+ years",
+    "responsibilities": "Design, develop, debug, and maintain software applications using programming languages such as Java, Python, and C++; collaborate with cross-functional teams to ensure the success of the project."
   },
   {
     "id": 4,
@@ -37,7 +48,11 @@
     "job_type1": "remote",
     "job_type2": "full-time",
     "location": "Dhaka,Bangladesh",
-    "salary": "10000k-1200000k"
+    "salary": "10000k-1200000k",
+    "job_description": "A software engineer is responsible for designing, developing, and maintaining software applications. They must be skilled in programming languages such as Java, Python, and C++ and have experience with software development methodologies.",
+    "experience":"2+ years",
+    "responsibilities": "Design, develop, debug, and maintain software applications using programming languages such as Java, Python, and C++; collaborate with cross-functional teams to ensure the success of the project."
+
   },
   {
     "id": 5,
@@ -47,7 +62,12 @@
     "job_type1": "remote",
     "job_type2": "full-time",
     "location": "Dhaka,Bangladesh",
-    "salary": "10500k-180000k"
+    "salary": "10500k-180000k",
+     "description": "A software developer is responsible for designing, developing, and testing software applications. They may work on a variety of different projects and must be skilled in programming languages such as Java, Python, and C++. They must also have knowledge of software development methodologies and be able to work in a team environment.",
+    "experience":"2+ years",
+    "responsibility": "Design and develop web applications using HTML, CSS, and JavaScript, while ensuring high performance and responsiveness of the applications."
+  
+
   },
   {
     "id": 6,
@@ -57,6 +77,12 @@
     "job_type1": "onsite",
     "job_type2": "full-time",
     "location": "Dhaka,Bangladesh",
-    "salary": "50000k-200000k"
+    "salary": "50000k-200000k",
+    "job_description": "An IT specialist is responsible for maintaining and supporting an organization's computer systems and networks. They must have a strong understanding of hardware, software, and networking technologies, as well as the ability to troubleshoot and resolve technical issues. They collaborate with other teams to ensure that IT systems meet business requirements and are properly integrated with other systems.",
+   "responsibilities": 
+    "Install, configure, and maintain computer hardware, software, and peripherals",
+    "experience":"2+ years"
+    
+
   }
 ]

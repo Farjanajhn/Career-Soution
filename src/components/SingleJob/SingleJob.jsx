@@ -26,7 +26,7 @@ const SingleJob = ({ featuredJob }) => {
             </p>
           </div>
         </div>
-       <Link to={`/job/${id}`}> <button className=' w-30% bg-purple-400 py-2 rounded font-bold mt-4 hover:bg-purple-300'>View details</button></Link>
+       <Link to={`/jobDetail/${id}`}> <button className=' w-30% bg-purple-400 py-2 rounded mt-4 hover:bg-purple-300'>View details</button></Link>
     </div>
     
   );

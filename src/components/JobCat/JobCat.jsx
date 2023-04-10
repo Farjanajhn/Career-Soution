@@ -9,9 +9,9 @@ const JobCat = () => {
     .then(data=>setJobs(data))
   },[])
   return (
-    <div className='border border-red-100  mt-12'>
-      <div className='border border-red-100 mt-6'>
-      <h1 className='text-2xl font-semibold text-center'>Job Category List</h1>
+    <div className='  mt-12'>
+      <div className=' mt-6'>
+      <h1 className='text-4xl font-bold text-center'>Job Category List</h1>
       <p className='text-center mt-4'>Explore thousands of job opportunities with all the information you need. Its your future</p>
       </div>
       <div className='flex gap-12 items-center justify-center mt-12'>
