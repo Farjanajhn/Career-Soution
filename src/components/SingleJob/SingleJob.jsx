@@ -1,9 +1,10 @@
 import React from 'react';
 import { CurrencyDollarIcon,MapPinIcon } from '@heroicons/react/24/solid'
+import { Link } from 'react-router-dom';
 
 const SingleJob = ({ featuredJob }) => {
-console.log(featuredJob)
- const { img, job_title, company_name, job_type1, job_type2, location, salary } = featuredJob; 
+  /* console.log(featuredJob); */
+ const { id,img, job_title, company_name, job_type1, job_type2, location, salary } = featuredJob; 
   return (
     <div className='border border-gray-300  pt-4 pl-6 mt-12'>
         <img className="w-52" src={img} alt="" />
@@ -25,7 +26,7 @@ console.log(featuredJob)
             </p>
           </div>
         </div>
-        <button className=' w-30% bg-purple-400 py-2 rounded font-bold mt-4 hover:bg-purple-300'>View details</button>
+       <Link to={`/job/${id}`}> <button className=' w-30% bg-purple-400 py-2 rounded font-bold mt-4 hover:bg-purple-300'>View details</button></Link>
     </div>
     
   );

@@ -8,12 +8,12 @@ const Header = () => {
       <div className='md:flex gap-64'>
         <h4 className='ml-4 text-4xl  '>Career-Solution</h4>
       
-        <nav className=''>
-         <ActiveLink className='pl-6'  to='/'>Home</ActiveLink> 
-        <ActiveLink className='pl-6'  to='/statistics'>Statistics</ActiveLink>
-        <ActiveLink className='pl-6' to='/applied'>Applied Job</ActiveLink>
-        <ActiveLink className='pl-6' to='/blog'>Blog</ActiveLink>
-        </nav>
+        <div className=''>
+         <ActiveLink className='ml-6'  to='/'>Home</ActiveLink> 
+        <ActiveLink className='ml-6'  to='/statistics'>Statistics</ActiveLink>
+        <ActiveLink className='ml-6' to='/applied'>Applied Job</ActiveLink>
+        <ActiveLink className='ml-6' to='/blog'>Blog</ActiveLink>
+        </div>
       </div>
       <Link><button className='rounded-md w-32 border-solid border-2 border-indigo-600'>Start Applying</button></Link>
     </div>
