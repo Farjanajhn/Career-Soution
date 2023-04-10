@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "img": "https://1000logos.net/wp-content/uploads/2021/05/Google-logo.png",
+    "job_title": "Technical Database Engineer",
+    "company_name": "Google LLC",
+    "job_type1": "remote",
+    "job_type2": "full-time",
+    "location": "Dhaka,Bangladesh",
+    "salary": "80k-120k"
+  },
+  {
+    "id": 2,
+    "img": "https://www.the-sun.com/wp-content/uploads/sites/6/2023/03/netflix-glow-comp.jpg?w=1280&quality=44",
+    "job_title": "Senior Product Designer",
+    "company_name": "Netflix",
+    "job_type1": "onsite",
+    "job_type2": "full-time",
+    "location": "Dhaka,Bangladesh",
+    "salary": "800k-1200k"
+  },
+  {
+    "id": 3,
+    "img": "https://1000logos.net/wp-content/uploads/2021/04/Tesla-logo.png",
+    "job_title": "Software Engineer",
+    "company_name": "Tesla",
+    "job_type1": "onsite",
+    "job_type2": "full-time",
+    "location": "Dhaka,Bangladesh",
+    "salary": "100k-1200k"
+  },
+  {
+    "id": 4,
+    "img": "https://di-uploads-pod3.dealerinspire.com/vindeversautohausofsylvania/uploads/2018/10/Audi-Logo-Banner.png",
+    "job_title": "Software Engineer",
+    "company_name": "Audi",
+    "job_type1": "remote",
+    "job_type2": "full-time",
+    "location": "Dhaka,Bangladesh",
+    "salary": "10000k-1200000k"
+  },
+  {
+    "id": 5,
+    "img": "https://www.stpaulabilene.org/wp-content/uploads/2018/10/spotify-logo-png-file-spotify-badge-large-png-1280.png",
+    "job_title": "System-developer",
+    "company_name": "Spotify",
+    "job_type1": "remote",
+    "job_type2": "full-time",
+    "location": "Dhaka,Bangladesh",
+    "salary": "10500k-180000k"
+  },
+  {
+    "id": 6,
+    "img": "https://www.digital.ink/wp-content/uploads/airbnb_logo_detail.jpg",
+    "job_title": "It-specialist",
+    "company_name": "Airbnb",
+    "job_type1": "onsite",
+    "job_type2": "full-time",
+    "location": "Dhaka,Bangladesh",
+    "salary": "50000k-200000k"
+  }
+]
