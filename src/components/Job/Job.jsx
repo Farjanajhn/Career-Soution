@@ -3,7 +3,7 @@ import React from 'react';
 const Job = ({ job }) => {
   const {cover_image,job_name, job_amount } = job;
   return (
-    <div className='pl-4 rounded-md w-56 h-56 pt-12 bg-purple-100'>
+    <div className='pl-4 rounded-md w-64 h-56 pt-8 bg-purple-100'>
     
       
       <img className="w-16 h-16 rounded-md" src={cover_image} alt="" />
