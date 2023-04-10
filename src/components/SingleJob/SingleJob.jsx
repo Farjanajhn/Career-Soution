@@ -9,11 +9,11 @@ console.log(featuredJob)
         <img className="w-52" src={img} alt="" />
       <p className='text-2xl font-semibold'>{job_title}</p>
       <p>{ company_name}</p>
-        <div className='flex gap-4 mt-4'>
-        <p className='border border-purple-400 text-purple-950'>{job_type1}</p>
-        <p className='border border-purple-400 text-purple-950'>{job_type2}</p>
+        <div className='flex gap-4 mt-2'>
+        <p className='w-18 border-2 px-3 rounded border-purple-400 text-purple-950'>{job_type1}</p>
+        <p className=' w-22 h-8 border-2 px-1 rounded border-purple-400 text-purple-950'>{job_type2}</p>
         </div>
-        <div className='flex gap-4 mt-4'>
+        <div className='flex gap-4 mt-2'>
           <div className='flex'>
             <p><MapPinIcon className="h-6 w-6 text-blue-500" /></p>
           <p>{location}</p>
@@ -25,7 +25,7 @@ console.log(featuredJob)
             </p>
           </div>
         </div>
-        <button className='border border-purple-800 mt-4'>View More details</button>
+        <button className=' w-30% bg-purple-400 py-2 rounded font-bold mt-4 hover:bg-purple-300'>View details</button>
     </div>
     
   );
