@@ -16,11 +16,11 @@ const FeaturedJob = () => {
       <div className='grid grid-cols-2 gap-4 w-75% justify-around'>
         {
           featuredJobs.map(featuredJob => <SingleJob
-          featuredJob={featuredJob}></SingleJob>)
+            key={featuredJob.id } featuredJob={featuredJob}></SingleJob>)
         }
      </div>
     </div>
-    
+
   );
 };
 

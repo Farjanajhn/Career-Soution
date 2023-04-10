@@ -8,7 +8,7 @@ const Header = () => {
         <h4 className='ml-4 text-4xl  '>Career-Solution</h4>
       
         <div className=''>
-       {/*  <Link className='pl-6'  to='/'>Home</Link> */}
+         <Link className='pl-6'  to='/'>Home</Link> 
         <Link className='pl-6'  to='/statistics'>Statistics</Link>
         <Link className='pl-6' to='/applied'>Applied Job</Link>
         <Link className='pl-6' to='/blog'>Blog</Link>

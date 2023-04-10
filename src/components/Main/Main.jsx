@@ -5,15 +5,13 @@ import FeaturedJob from '../FeaturedJob/FeaturedJob';
 import Header from '../Header/Header';
 import JobCat from '../JobCat/JobCat';
 
-const Main = ({ children }) => {
+const Main = () => {
 
   return (
     <div>
      <Header></Header>
-      <Outlet children={children}></Outlet>
-      <Banner></Banner>
-      <JobCat></JobCat>
-      <FeaturedJob></FeaturedJob>
+      <Outlet ></Outlet>
+     
       
      
     </div>

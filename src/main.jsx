@@ -12,6 +12,7 @@ import Main from './components/Main/Main';
 
 import Blog from './components/Blog/Blog';
 import JobApplication from './components/JobApplication/JobApplication';
+import Banner from './components/Banner/Banner';
 
 
 const router = createBrowserRouter([
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
     path: '/',
     element: <Main></Main>,
     children: [
+      {
+        path: '/',
+        element:<Home></Home>
+     },
       {
         path: 'statistics',
         element: <Statistics></Statistics>
