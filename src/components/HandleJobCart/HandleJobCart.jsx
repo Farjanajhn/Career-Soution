@@ -7,7 +7,7 @@ const HandleJobCart = () => {
   console.log(carts); */
   return (
     <div>
-  {/*     Here you can see your  list applied job:{carts.length} */}
+  Here you can see your  list applied job:
     </div>
   );
 };

@@ -5,13 +5,17 @@ import { Link } from 'react-router-dom';
 const JobCart = ({ jobData }) => {
   const { id, job_description, responsibility, experience, salary, job_title, location, email, phone } = jobData;
 
-  const [cart,setCart]=useState([])
+/*   const [cart,setCart]=useState([])
   
   const handleJobCart = (jobData) => {
     const newCart = [...cart, jobData];
     setCart(newCart);
-  }
-/*   console.log(jobData);  */
+  } */
+  /*   console.log(jobData);  */
+/*   const handleAllJobsBtn = id => {
+    
+  } */
+
   return (
     <div className='mt-12'>
     <h2 className='text-4xl font-bold text-center'>Job Details</h2>
@@ -27,34 +31,35 @@ const JobCart = ({ jobData }) => {
           <h1 className='text-xl border-b-2 border-gray-500'>Job Details</h1>
           <div>
             <div className='flex mt-6 '>
-              <CurrencyDollarIcon class="h-6 w-6 text-blue-500" />
+              <CurrencyDollarIcon className="h-6 w-6 text-blue-500" />
               <p className='ml-2'>Salary:{salary}</p>
 
             </div>
 
             <div className='flex mt-6'>
-              <BriefcaseIcon class="h-6 w-6 text-blue-500" />
+              <BriefcaseIcon className="h-6 w-6 text-blue-500" />
               <p className='ml-2'>Job Title:{job_title}</p>
             </div>
           </div>
           <h1 className='text-xl border-b-2 border-gray-500 mt-6'>Contact Information</h1>
           <div className='flex mt-6'>
-            <PhoneIcon class="h-6 w-6 text-blue-500" />
+            <PhoneIcon className="h-6 w-6 text-blue-500" />
             <p className='ml-2'>Phone:{phone}</p>
           </div>
         
           <div className='flex mt-6'>
-            <EnvelopeIcon class="h-6 w-6 text-blue-500" />
+            <EnvelopeIcon className="h-6 w-6 text-blue-500" />
             <p className='ml-2'>{email}</p>
           </div>
 
           <div className='flex mt-6'>
-            <MapPinIcon class="h-6 w-6 text-blue-500" />
+            <MapPinIcon className="h-6 w-6 text-blue-500" />
             <p className='ml-2'>Address:{location}</p>
           </div>
       
       </div>
-          <Link to='/handleJobCart'><button onClick={() => handleJobCart(jobData)} cart={ cart} className='rounded w-96 bg-purple-700 py-2 text-white items-center  mb-4' >Apply Now</button></Link>
+         {/*  <p onClick={() => handleAllJobsBtn(id)}> */}
+            <Link to='/handleJobCart'><button className='rounded w-96 bg-purple-700 py-2 text-white items-center  mb-4'>Apply Now</button></Link>
    </div>
       </div>
       </div>
