@@ -12,10 +12,11 @@ import Main from './components/Main/Main';
 
 import Blog from './components/Blog/Blog';
 import JobApplication from './components/JobApplication/JobApplication';
-import Banner from './components/Banner/Banner';
+
 import JobDetail from './components/JobDetail/JobDetail';
-import JobDetailsLoader from './components/JobDetailsLoader/JobDetailsLoader';
+
 import ErrorHandle from './components/ErrorHandle/ErrorHandle';
+import HandleJobCart from './components/HandleJobCart/HandleJobCart';
 
 
 const router = createBrowserRouter([
@@ -34,6 +35,12 @@ const router = createBrowserRouter([
         loader:({params})=>fetch('/data.json')
        
           
+        
+      },
+      {
+        path: 'handleJobCart',
+        element: <HandleJobCart></HandleJobCart>,
+      
         
      },
       {

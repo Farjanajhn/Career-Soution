@@ -1,10 +1,14 @@
 import React from 'react';
 import { BeakerIcon, MegaphoneIcon ,CurrencyDollarIcon,BriefcaseIcon, PhoneIcon,EnvelopeIcon,MapPinIcon} from '@heroicons/react/24/solid'
+import { Link } from 'react-router-dom';
 
-const JobCart = ({ jobData }) => {
-  const { job_description,responsibility,experience,salary,job_title,location,email,phone } = jobData;
+const JobCart = ({ jobData,handleJobCart }) => {
+  const { id,job_description,responsibility,experience,salary,job_title,location,email,phone } = jobData;
 /*   console.log(jobData);  */
   return (
+    <div className='mt-12'>
+    <h2 className='text-4xl font-bold text-center'>Job Details</h2>
+ <p className='text-center mt-4'>You can find all the job information here about a particular job</p>
     <div className='flex justify-around items-center mx-24 mt-12 pt-8  border border-blue-400'>
       <div className='max-w-3xl py-4 px-6'>
         <h1 className='mt-6'><span className='text-xl font-semibold'>Description:</span>{job_description}</h1>
@@ -26,7 +30,7 @@ const JobCart = ({ jobData }) => {
               <p className='ml-2'>Job Title:{job_title}</p>
             </div>
           </div>
-          <h1 className='text-xl border-b-2 border-gray-500 mt-6'>Contact Informations</h1>
+          <h1 className='text-xl border-b-2 border-gray-500 mt-6'>Contact Information</h1>
           <div className='flex mt-6'>
             <PhoneIcon class="h-6 w-6 text-blue-500" />
             <p className='ml-2'>Phone:{phone}</p>
@@ -43,9 +47,10 @@ const JobCart = ({ jobData }) => {
           </div>
       
       </div>
-      <button className='rounded w-96 bg-purple-700 py-2 text-white items-center  mb-4' >Apply Now</button>
+        <Link to='/handleJobCart'><button onClick={()=>handleJobCart(id)} className='rounded w-96 bg-purple-700 py-2 text-white items-center  mb-4' >Apply Now</button></Link>
    </div>
-    </div>
+      </div>
+      </div>
   );
 };
 

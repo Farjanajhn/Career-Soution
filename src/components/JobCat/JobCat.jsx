@@ -6,7 +6,7 @@ const JobCat = () => {
   useEffect(() => {
     fetch('jobs.json')
       .then(res => res.json())
-    .then(data=>setJobs(data))
+    .then(data=>setJobs(data.slice(0,4)))
   },[])
   return (
     <div className='  mt-12'>
@@ -14,7 +14,7 @@ const JobCat = () => {
       <h1 className='text-4xl font-bold text-center'>Job Category List</h1>
       <p className='text-center mt-4'>Explore thousands of job opportunities with all the information you need. Its your future</p>
       </div>
-      <div className='flex gap-12 items-center justify-center mt-12'>
+      <div className='md:flex flex-row gap-12 items-center justify-center sm:mt-96 md:mt-12'>
         {
           jobs.map(job=><Job key={job.id} job={job}></Job>)
 }

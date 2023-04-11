@@ -15,7 +15,7 @@ const Header = () => {
         <ActiveLink className='ml-6' to='/blog'>Blog</ActiveLink>
         </div>
       </div>
-      <Link><button className='rounded w-30% bg-purple-100 py-2  hover:bg-purple-500 w-32  '>Start Applying</button></Link>
+      <Link><button className='rounded w-30% bg-purple-100 py-2  w-32  '>Start Applying</button></Link>
     </div>
   );
 };
