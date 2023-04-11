@@ -17,6 +17,7 @@ import JobDetail from './components/JobDetail/JobDetail';
 
 import ErrorHandle from './components/ErrorHandle/ErrorHandle';
 import HandleJobCart from './components/HandleJobCart/HandleJobCart';
+import cartProductsLoader from './lodears/loaders';
 
 
 const router = createBrowserRouter([
@@ -40,6 +41,7 @@ const router = createBrowserRouter([
       {
         path: 'handleJobCart',
         element: <HandleJobCart></HandleJobCart>,
+   /*      loader: cartProductsLoader, */
       
         
      },

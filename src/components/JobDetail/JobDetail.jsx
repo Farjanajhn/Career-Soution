@@ -11,10 +11,10 @@ const JobDetail = () => {
 /*  console.log(jobs);    */
   const params = useParams();
   /*   console.log(params);  */
-  const [cart, setCart] = useState([]);
+  /* const [cart, setCart] = useState([]);  */
 
 
-  const handleJobCart = (id) => {
+ /*  const handleJobCart = (id) => {
   
     const previousJob = localStorage.getItem('jobCart');
 
@@ -26,7 +26,10 @@ const JobDetail = () => {
     else {
       localStorage.setItem('jobCart',id)
     }
-  }
+  } */
+ /*  const handleJobCart = () => {
+    console.log('added')
+  } */
 
  useEffect(() => {
   if(jobs)
@@ -42,7 +45,7 @@ const JobDetail = () => {
     <div>
       {
         
-        <JobCart handleJobCart={handleJobCart} key={ jobData.id} jobData={jobData}></JobCart>
+        <JobCart key={ jobData.id} jobData={jobData}></JobCart>
       }
   
     </div>

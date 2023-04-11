@@ -15,10 +15,9 @@ const Blog = () => {
 
         <p className='text-center mt-4'>useRef is a built-in hook in React that returns a mutable ref object. Refs are a way to access and modify the properties of a DOM element or a child component directly. The ref object can be passed as a prop to a child component or used directly in a function or method.</p>
 
-        <h1 className='text-center mt-4'></h1>
+        <h1 className='text-center mt-4'>What is UseMemo?</h1>
         <p className='text-center mt-4'>useMemo is a hook in React that allows for optimization of expensive computations that are used in rendering. It takes a function and an array of dependencies, and returns a memoized value.
-
-The memoized value is only re-computed when one of the dependencies has changed. This can be used to prevent unnecessary re-renders caused by a re-computation of the expensive value, when the dependencies haven't actually changed.</p>
+          The memoized value is only re-computed when one of the dependencies has changed. This can be used to prevent unnecessary re-renders caused by a re-computation of the expensive value, when the dependencies haven't actually changed.</p>
 
 
       </div>

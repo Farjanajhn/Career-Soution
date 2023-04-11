@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 
 const SingleJob = ({ featuredJob }) => {
   /* console.log(featuredJob); */
- const { id,img, job_title, company_name, job_type1, job_type2, location, salary } = featuredJob; 
+  const { id, img, job_title, company_name, job_type1, job_type2, location, salary } = featuredJob; 
+  
   return (
     <div className='border border-purple-700  pt-4 pl-6 mt-12 rounded'>
         <img className="w-52" src={img} alt="" />
