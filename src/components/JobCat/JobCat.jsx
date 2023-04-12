@@ -6,7 +6,7 @@ const JobCat = () => {
   useEffect(() => {
     fetch('jobs.json')
       .then(res => res.json())
-    .then(data=>setJobs(data.slice(0,4)))
+    .then(data=>setJobs(data))
   },[])
   return (
     <div className='  mt-12'>

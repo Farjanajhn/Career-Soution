@@ -1,20 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react'; 
 import { BeakerIcon, MegaphoneIcon ,CurrencyDollarIcon,BriefcaseIcon, PhoneIcon,EnvelopeIcon,MapPinIcon} from '@heroicons/react/24/solid'
 import { Link } from 'react-router-dom';
 
-const JobCart = ({ jobData }) => {
+const JobCart = ({ jobData,handleAddToCart
+}) => {
+  const [cart, setCart] = useState([])
   const { id, job_description, responsibility, experience, salary, job_title, location, email, phone } = jobData;
 
-/*   const [cart,setCart]=useState([])
-  
-  const handleJobCart = (jobData) => {
-    const newCart = [...cart, jobData];
-    setCart(newCart);
-  } */
-  /*   console.log(jobData);  */
-/*   const handleAllJobsBtn = id => {
-    
-  } */
+
+
 
   return (
     <div className='mt-12'>
@@ -59,7 +53,7 @@ const JobCart = ({ jobData }) => {
       
       </div>
          {/*  <p onClick={() => handleAllJobsBtn(id)}> */}
-            <Link to='/handleJobCart'><button className='rounded w-96 bg-purple-700 py-2 text-white items-center  mb-4'>Apply Now</button></Link>
+          <Link to='/handleCart'><button onClick={() => handleAddToCart(id)} className='rounded w-96 bg-purple-700 py-2 text-white items-center  mb-4'>Apply Now</button ></Link>
    </div>
       </div>
       </div>

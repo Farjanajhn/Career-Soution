@@ -11,7 +11,7 @@ const Header = () => {
         <div className='flex gap-4'>
          <ActiveLink className='ml-6' to='/'>Home</ActiveLink> 
         <ActiveLink className='ml-6'  to='/statistics'>Statistics</ActiveLink>
-        <ActiveLink className='ml-6' to='/applied'>Applied Job</ActiveLink>
+        <ActiveLink className='ml-6' to='/handleCart'>Applied Job</ActiveLink> 
         <ActiveLink className='ml-6' to='/blog'>Blog</ActiveLink>
         </div>
       </div>
