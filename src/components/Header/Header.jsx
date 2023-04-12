@@ -4,7 +4,7 @@ import ActiveLink from '../ActiveLink/ActiveLink';
 
 const Header = () => {
   return (
-    <div className='flex md:flex justify-evenly bg-gradient-to-r from-pink-500 to-violet-500 w-64 lg:w-75 mx-auto h-32 items-center'>
+    <div className='flex md:flex justify-evenly bg-gradient-to-r from-pink-500 to-violet-500 w-75 mx-auto h-32 items-center'>
       <div className='flex md:flex gap-32 lg:gap-64'>
         <h4 className='ml-4 text-4xl '>Career-Solution</h4>
       
