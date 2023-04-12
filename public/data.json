@@ -73,7 +73,7 @@
     "location": "Montreal,Canada",
     "salary": "10500k-180000k",
     "email": "david.green@example.com",
-     "description": "A software developer is responsible for designing, developing, and testing software applications. They may work on a variety of different projects and must be skilled in programming languages such as Java, Python, and C++. They must also have knowledge of software development methodologies and be able to work in a team environment.",
+     "job_description": "A software developer is responsible for designing, developing, and testing software applications. They may work on a variety of different projects and must be skilled in programming languages such as Java, Python, and C++. They must also have knowledge of software development methodologies and be able to work in a team environment.",
     "experience":"2+ years",
     "phone": "+44 20 7123 4567",
     "responsibility": "Design and develop web applications using HTML, CSS, and JavaScript, while ensuring high performance and responsiveness of the applications."

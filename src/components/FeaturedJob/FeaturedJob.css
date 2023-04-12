@@ -1,3 +1,10 @@
 .button-see{
   margin-left: 474px;
 } 
+
+@media only screen and (max-width: 600px) {
+  .button-see {
+    margin-left: 70px;
+
+  }
+}
